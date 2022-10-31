@@ -1,0 +1,29 @@
+/* .text {
+  color: darkred;
+  background-color: grey;
+  font-size: 40px;
+}
+.block {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  color: yellow;
+}
+.lorem {
+  color: red;
+}
+.block2 {
+  background-color: darkgreen;
+  width: 200px;
+  height: 200px;
+  color: yellow;
+} */
+
+.block {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+}

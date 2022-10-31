@@ -1,0 +1,81 @@
+/* .block {
+  background: red;
+}
+.block:hover {
+  background: green;
+  cursor: pointer;
+}
+li:first-child {
+  background: red;
+}
+li:last-child {
+  background: green;
+}
+li:nth-child(3) {
+  background: blue;
+}
+a:visited {
+  color: green;
+}
+#block::before {
+  content: "Before ";
+  color: green;
+}
+#block::after {
+  content: " After";
+  color: yellow;
+} */
+
+/* .block {
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  position: relative;
+  padding-left: 5px;
+  border-radius: 3px 0 0 3px;
+}
+.block::before {
+  content: "";
+  width: 5px;
+  height: 100%;
+  border-radius: 25px;
+  background: blue;
+  position: absolute;
+  left: 0;
+}
+.block:hover {
+} */
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+}
+
+.grandson {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  position: absolute;
+  /* top: ; */
+  /* left: ; */
+  right: 0;
+  /* bottom: ; */
+}
+.grandson2 {
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  position: absolute;
+  /* top: ; */
+  /* left: ; */
+  right: 0;
+}

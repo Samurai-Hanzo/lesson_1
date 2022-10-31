@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper-item {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background: black;
+  margin: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .wrapper-item {
+    background-color: green;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper-item {
+    background-color: yellow;
+  }
+}

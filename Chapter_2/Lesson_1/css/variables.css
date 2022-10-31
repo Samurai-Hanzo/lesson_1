@@ -1,0 +1,19 @@
+:root {
+  /* text color */
+  --main-color: #ffffffb2;
+  --button-color: #5454d4;
+
+  /* font-size */
+  --nav-size: 18px;
+  --section-size: 60px;
+  --main-size: 20px;
+  --service-title-size: 28px;
+
+  /* font family */
+  --main-family: "Nunito Sans", sans-serif;
+  --headers-famuly: "Open Sans", sans-serif;
+
+  /* Specific variables */
+
+  --container-width: 1200px;
+}

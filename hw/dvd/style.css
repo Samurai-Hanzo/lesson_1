@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1366px;
+  height: 1100%;
+  background: black;
+}
+marquee {
+  height: 95vh;
+}
+.image {
+  max-width: 100px;
+}

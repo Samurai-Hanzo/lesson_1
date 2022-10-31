@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Open+Sans:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #19191b;
+  color: var(--main-color);
+  font-family: var(--main-family);
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.gradient__bg {
+  position: absolute;
+  width: 467px;
+  height: 1233.79px;
+  left: -53px;
+  top: -430px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(84, 84, 212, 0.27) 0%,
+    rgba(84, 84, 212, 0.1134) 100%
+  );
+  filter: blur(150px);
+  border-radius: 233.5px;
+  transform: rotate(-54.37deg);
+}
+.gradient__bg2 {
+  position: absolute;
+  width: 467px;
+  height: 750px;
+  right: 190px;
+  top: 490px;
+  rotate: 45deg;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 168, 28, 0.1066) 0%,
+    rgba(224, 86, 136, 0.0615) 100%
+  );
+  filter: blur(150px);
+  border-radius: 233.5px;
+}
+.container {
+  margin: 0 auto;
+  max-width: var(--container-width);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 400px;
+}
+.nav__item a {
+  color: var(--secondary-color);
+  font-size: var(--nav-size);
+}
+.nav__item a:hover {
+  color: var(--button-color);
+  transition: 0.3s;
+}
+.search input {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 165px;
+  height: 29px;
+  color: var(--main-color);
+}
+.burger-menu {
+  display: none;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 580px;
+  height: 700px;
+}
+.desc__head {
+  margin: 0;
+  padding-top: 130px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 84px;
+  color: #ffffff;
+}
+.desc__text {
+  width: 536px;
+  font-size: var(--main-size);
+  color: var(--main-color);
+}
+.desc__link {
+  color: white;
+  background: var(--button-color);
+  font-size: var(--main-size);
+  font-family: var(--main-family);
+  font-weight: 700;
+  padding: 15px 27px;
+  border-radius: 4px;
+  width: 200px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.desc__link:hover {
+  background: #2121d1;
+  transition: 0.3s;
+}
+.desc__images {
+  width: 620px;
+  height: 800px;
+}
+.desc__photo {
+  position: relative;
+  width: 620px;
+}
+.image1 {
+  position: absolute;
+  width: 605px;
+  height: 662px;
+  right: 0;
+  top: 20px;
+}
+.image3 {
+  position: absolute;
+  width: 95px;
+  height: 28px;
+  top: 120px;
+  left: -60px;
+}
+.image4 {
+  position: absolute;
+  width: 51px;
+  height: 60px;
+  right: 70px;
+  top: 100px;
+}
+.image2 {
+  position: absolute;
+  width: 104px;
+  height: 120px;
+  bottom: 50px;
+  left: -80px;
+}
+.image5 {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  bottom: 50px;
+  right: 70px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service__text {
+  padding-top: 70px;
+  width: 695px;
+  height: 140px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services__title {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.services__head {
+  margin-top: 20px;
+  width: 211px;
+  height: 38px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.750316px;
+  color: #ffffff;
+}
+.servicest__text {
+  width: 299px;
+  height: 56px;
+  font-family: var(--main-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--main-size);
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.500211px;
+  color: var(--main-color);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation,
+  .search {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}
